@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      database: report
+      host: 127.0.0.1
+      port: 27917
+      model: com.report.bean
+      print: true
+
+    mvc:
+      static-path-pattern: /image/**
+    resources:
+      static-locations: classpath:/images/
+
+    jackson:
+      time-zone: Asia/Shanghai
+
+
+server:
+  port: 10086

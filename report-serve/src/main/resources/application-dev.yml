@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      database: report
+      host: blog.sakuramk.cn
+      port: 27917
+      model: com.report.bean
+      print: true
+
+    jackson:
+      time-zone: Asia/Shanghai
+
+
+server:
+  port: 10086
